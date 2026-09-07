@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440" width="400" height="440">
+  <!-- Perfectly symmetrical 17-ray crest -->
+  <!-- Center at (200,200), ray #8 (center of 17) points up (270deg in SVG) -->
+  <!-- Each ray: r=40 to r=175, width=10deg -->
+  <g transform="translate(200,200)">
+    <!-- SVG rotate(0)=right, rotate(90)=down, rotate(270)=up -->
+    <!-- Ray 0 = 100.6deg -->
+    <polygon fill="#B8973A" transform="rotate(100.6)" points="40,-6 40,6 175,6 175,-6"/>
+    <polygon fill="#C9A84D" transform="rotate(121.8)" points="40,-6 40,6 175,6 175,-6"/>
+    <polygon fill="#B8973A" transform="rotate(142.9)" points="40,-6 40,6 175,6 175,-6"/>
+    <polygon fill="#C9A84D" transform="rotate(164.1)" points="40,-6 40,6 175,6 175,-6"/>
+    <polygon fill="#B8973A" transform="rotate(185.3)" points="40,-6 40,6 175,6 175,-6"/>
+    <polygon fill="#C9A84D" transform="rotate(206.5)" points="40,-6 40,6 175,6 175,-6"/>
+    <polygon fill="#B8973A" transform="rotate(227.6)" points="40,-6 40,6 175,6 175,-6"/>
+    <polygon fill="#C9A84D" transform="rotate(248.8)" points="40,-6 40,6 175,6 175,-6"/>
+    <polygon fill="#E1C364" transform="rotate(270.0)" points="40,-6 40,6 175,6 175,-6"/>
+    <polygon fill="#C9A84D" transform="rotate(291.2)" points="40,-6 40,6 175,6 175,-6"/>
+    <polygon fill="#B8973A" transform="rotate(312.4)" points="40,-6 40,6 175,6 175,-6"/>
+    <polygon fill="#C9A84D" transform="rotate(333.5)" points="40,-6 40,6 175,6 175,-6"/>
+    <polygon fill="#B8973A" transform="rotate(354.7)" points="40,-6 40,6 175,6 175,-6"/>
+    <polygon fill="#C9A84D" transform="rotate(15.9)" points="40,-6 40,6 175,6 175,-6"/>
+    <polygon fill="#B8973A" transform="rotate(37.1)" points="40,-6 40,6 175,6 175,-6"/>
+    <polygon fill="#C9A84D" transform="rotate(58.2)" points="40,-6 40,6 175,6 175,-6"/>
+    <polygon fill="#B8973A" transform="rotate(79.4)" points="40,-6 40,6 175,6 175,-6"/>
+  </g>
+
+  <!-- Navy circle -->
+  <circle cx="200" cy="200" r="62" fill="#1C2950" stroke="#C9A84D" stroke-width="4"/>
+
+  <!-- Gold M - simple thick letter -->
+  <rect x="177" y="175" width="12" height="52" rx="2" fill="#C9A84D"/>
+  <rect x="211" y="175" width="12" height="52" rx="2" fill="#C9A84D"/>
+  <polygon points="189,175 200,224 178,224" fill="#C9A84D"/>
+  <polygon points="211,175 200,224 222,224" fill="#C9A84D"/>
+
+  <!-- Star above -->
+  <g transform="translate(200,106)">
+    <polygon points="0,-18 4.5,-5.5 18,-5.5 7,3 11,16.5 0,8.5 -11,16.5 -7,3 -18,-5.5 -4.5,-5.5" fill="#E1C364" stroke="#C9A84D" stroke-width="1.2"/>
+  </g>
+
+  <!-- Open book below -->
+  <g transform="translate(200,268)">
+    <polygon points="-46,0 0,18 0,54 -46,44" fill="#FFFFFF" stroke="#C9A84D" stroke-width="1.5"/>
+    <polygon points="46,0 0,18 0,54 46,44" fill="#F2F2F6" stroke="#C9A84D" stroke-width="1.5"/>
+    <line x1="0" y1="18" x2="0" y2="54" stroke="#C9A84D" stroke-width="2.5"/>
+    <line x1="-38" y1="9" x2="-3" y2="25" stroke="#D0D0D0" stroke-width="1"/>
+    <line x1="-38" y1="18" x2="-3" y2="34" stroke="#D0D0D0" stroke-width="1"/>
+    <line x1="-38" y1="27" x2="-3" y2="40" stroke="#D0D0D0" stroke-width="1"/>
+    <line x1="38" y1="9" x2="3" y2="25" stroke="#D0D0D0" stroke-width="1"/>
+    <line x1="38" y1="18" x2="3" y2="34" stroke="#D0D0D0" stroke-width="1"/>
+    <line x1="38" y1="27" x2="3" y2="40" stroke="#D0D0D0" stroke-width="1"/>
+  </g>
+</svg>
